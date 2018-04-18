@@ -59,6 +59,7 @@ let styles = StyleSheet.create ({
     marginTop: 20,
     marginLeft: 20,
     fontSize: 20,
+    fontWeight: 'bold',
   },
   usernameInput: {
     height: 40,
@@ -79,6 +80,7 @@ let styles = StyleSheet.create ({
     color: 'blue',
     alignContent: 'center',
     justifyContent: 'center',
-    paddingLeft: 5,
+    marginLeft: 5,
+    fontWeight: 'bold'
   }
 })
