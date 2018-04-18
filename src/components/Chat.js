@@ -18,6 +18,7 @@ export default class Chat extends React.Component {
   render() {
     return (
       <GiftedChat
+        style= {styles.chatContainer}
         messages={this.state.messages}
         onSend={(message) => {
           Backend.sendMessage(message);
@@ -47,3 +48,10 @@ Chat.defaultProps = {
   name: 'SANDY LAM',
 };
 
+let styles = {
+  chatContainer: {
+    backgroundColor: '#ffffff',
+    
+  },
+
+}
